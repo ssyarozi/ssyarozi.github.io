@@ -1,0 +1,136 @@
+<!-- first page -->
+
+<html>
+	<head>
+		<title>a l i s s y a ' s</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<style>
+		
+		*{margin: 0; padding: 0;}
+		
+		.image1 {
+			background-image: url('aesthetic dark.jpg');
+
+			height: 110%; 
+
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		
+		.front{
+			position: relative; width: 100%; margin: 0 auto;			
+		}
+
+		.textFront{
+			color: white;
+			position: absolute;
+			top: 13.8%; 
+			width: 100%; 
+			font-size: 10rem;
+			text-align: center;
+		}
+		
+		.text2Front{
+			color: white;
+			position: absolute; 
+			top: 27.6%; 
+			width: 100%; 
+			text-align: center; 
+			font-size: 1.5rem; 	
+		}
+		
+		table.center {
+		  margin-left: auto; 
+		  margin-right: auto;
+		}
+		
+		.form{
+			position: relative; width: 100%; margin: 0 auto;
+		}
+		
+		ul {
+			float: right;
+			list-style-type: none;
+			margin-top: 37px;
+		}
+
+		ul li {
+			display: inline-block;	
+		}
+		
+		ul li a{
+			text-decoration: none;
+			color: #343434;
+			padding: 4px 20px;
+			border: 1px solid #FFFFF7;
+			background-color: #FFFFF7;
+		}
+		
+		ul li a:hover{
+			border: 1px solid #969590;
+			background-color: #969590;
+			color: #FFFFF7;
+		}
+		
+		</style>
+		
+		<div class="result">
+			<script>
+				function validateForm() {
+				  var x = document.forms["myForm"]["nickname"].value;
+				  if (x == "" || x == null) {
+					alert("please fill in your nickname to see my creation <3");
+					return false;
+				  }
+				  else {
+					alert("thank you, " + x + "! ^^ have a wonderful day!");
+				  }
+				}
+			</script>
+		</div>
+		
+	</head>
+	
+	<body style="height:100%; background-image:url('stars.jpg'); background-repeat: no-repeat; background-size: cover;">	
+		<h2 style="color:#FFFFF7;"> 
+			<br>&emsp;nur alissya rozi<br> <br>
+		</h2>
+				
+		<div class="front">
+			<div class="image1"> 
+			<h1 class="textFront"><i>Alissya's</i></h1>
+			<h6 class="text2Front">every little thing in her life.</h6>
+		</div>
+				
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<div class="form">
+			<p style="text-align:center; font-size:300%;  color:white;"> Before the excitement begins, <br> please fill in this information first :) </p>
+			<br><br><br><br><br>
+			
+			<table class="center" cellspacing="30" cellpadding="5" bgcolor="white">
+				<tr>
+					<td>				
+						<form name="myForm" action="index.html" onsubmit="return validateForm()" method="post" required>
+						
+						<font size="5" color="#3c3c3c">nickname</font> <br><br>
+						<input type='text' id="nickname" name='nickname' size='30' placeholder='enter your nickname <3' 
+						style="color:black; background-color: #e3e0de; padding: 5px 5px; text-align: left; text-decoration: none; display: inline-block;">
+						
+						<p><br><br>
+						<input type='submit' name='submit' value='&emsp;click here!&emsp;' 
+						style="color:white; background-color: #333333; border: none; padding: 5px 5px; text-align: center; text-decoration: none; display: inline-block;">		
+						
+						</font>
+					</td>
+				</tr>				
+			</table>
+		</div>
+		<br><br><br><br><br><br><br><br><br><br><br><br>
+		
+	</body>
+
+</html>
